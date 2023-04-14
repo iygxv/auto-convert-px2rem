@@ -1,4 +1,20 @@
-# auto-change-px2rem README
-## 作用
-识别代码里面的css的px值并且px2rem(px值)来替代
-例如， 检测到一段css代码是font-size: 26px， 你需要将它转换位font-size: px2rem(26);
+# **Auto-Change-Px2rem**
+## **说明**
+Auto-Change-Px2rem是一款VS Code插件，可以帮助开发者快速将CSS代码中的px值转换为rem值。通过使用快捷键，用户可以快速将选中的代码中的px值转换为px2rem()格式，从而方便地实现响应式布局。
+
+使用Auto-Change-Px2rem插件非常简单，只需要在编辑器中选中需要转换的代码，然后按下快捷键`ctrl+s`（Windows）或者`cmd+s`（Mac），即可将选中的CSS代码中的px值转换为px2rem()格式。
+
+## **具体操作**
+
+例如，如果选中的CSS代码是`font-size: 26px`，则会被转换为`font-size: px2rem(26)`。
+
+```css
+.demo {
+  font-size: 26px
+}
+
+// 转换
+.demo {
+ font-size: px2rem(26)
+}
+```

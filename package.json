@@ -2,8 +2,9 @@
   "name": "auto-change-px2rem",
   "displayName": "auto-change-px2rem",
   "description": "",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "coderGuxin",
+  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.77.0"
   },
