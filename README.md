@@ -1,8 +1,8 @@
-# **Auto-Change-Px2rem**
+# **Auto Convert px2rem**
 ## **说明**
-Auto-Change-Px2rem是一款VS Code插件，可以帮助开发者快速将CSS代码中的px值转换为rem值。通过使用快捷键，用户可以快速将选中的代码中的px值转换为px2rem()格式，从而方便地实现响应式布局。
+Auto Convert px2rem是一款VS Code插件，可以帮助开发者快速将CSS代码中的px值转换为rem值。通过使用快捷键，用户可以快速将选中的代码中的px值转换为px2rem()格式，从而方便地实现响应式布局。
 
-使用Auto-Change-Px2rem插件非常简单，只需要在编辑器中选中需要转换的代码，然后按下快捷键`ctrl+s`（Windows）或者`cmd+s`（Mac），即可将选中的CSS代码中的px值转换为px2rem()格式。
+使用Auto Convert px2rem插件非常简单，只需要在编辑器中选中需要转换的代码，然后按下快捷键`ctrl+s`（Windows）或者`cmd+s`（Mac），即可将选中的CSS代码中的px值转换为px2rem()格式。
 
 ## **具体操作**
 

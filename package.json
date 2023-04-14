@@ -1,8 +1,8 @@
 {
-  "name": "auto-change-px2rem",
-  "displayName": "auto-change-px2rem",
+  "name": "auto-convert-px2rem",
+  "displayName": "Auto Convert px2rem",
   "description": "",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "coderGuxin",
   "icon": "images/icon.png",
   "engines": {
@@ -13,20 +13,20 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/iygxv/auto-change-px2rem"
+    "url": "https://github.com/iygxv/auto-convert-px2rem"
   },
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "auto-change-px2rem.convert",
+        "command": "auto-convert-px2rem.convert",
         "title": "Convert CSS px to rem"
       }
     ],
     "keybindings": [
       {
-        "command": "auto-change-px2rem.convert",
+        "command": "auto-convert-px2rem.convert",
         "key": "ctrl+s",
         "mac": "cmd+s",
         "when": "editorTextFocus"

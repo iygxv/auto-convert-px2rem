@@ -1,7 +1,7 @@
 import * as vscode from 'vscode';
 
 export function activate(context: vscode.ExtensionContext) {
-  let disposable = vscode.commands.registerCommand('auto-change-px2rem.convert', () => {
+  let disposable = vscode.commands.registerCommand('auto-convert-px2rem.convert', () => {
     const editor = vscode.window.activeTextEditor;
     if (editor) {
       const document = editor.document;
@@ -19,13 +19,13 @@ export function activate(context: vscode.ExtensionContext) {
   context.subscriptions.push(disposable);
 
   // Register keybindings
-  let convertCommand = 'auto-change-px2rem.convert';
+  let convertCommand = 'auto-convert-px2rem.convert';
   if (process.platform === 'darwin') {
     convertCommand += 'Mac';
   } else {
     convertCommand += 'Windows';
   }
   context.subscriptions.push(vscode.commands.registerCommand(convertCommand, () => {
-    vscode.commands.executeCommand('auto-change-px2rem.convert');
+    vscode.commands.executeCommand('auto-convert-px2rem.convert');
   }));
 }
