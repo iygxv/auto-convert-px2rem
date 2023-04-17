@@ -2,8 +2,8 @@
   "name": "auto-convert-px2rem",
   "displayName": "Auto Convert px2rem",
   "description": "",
-  "version": "1.0.2",
-  "publisher": "coderGuxin",
+  "version": "1.0.0",
+  "publisher": "guixn",
   "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.77.0"
