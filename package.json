@@ -3,7 +3,7 @@
   "displayName": "Auto Convert px2rem",
   "description": "",
   "version": "1.0.0",
-  "publisher": "guixn",
+  "publisher": "guxin",
   "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.77.0"
